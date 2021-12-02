@@ -1,8 +1,10 @@
 # SVMKNN
+This is an implementation of the paper [SVM-KNN: Discriminative Nearest Neighbor Classiﬁcation for Visual Category Recognition](https://ieeexplore.ieee.org/document/1641014)
 
+We use the accurate distance function (discussed in the section Algorithm B.) on descriptors found using the **SIFT** descriptor for every image.
 ## How to run
 
-Extract the dataset Caltech 101
+Download and extract the dataset [Caltech 101](http://www.vision.caltech.edu/Image_Datasets/Caltech101/#Download)
 
 Create training and testing sets
 
